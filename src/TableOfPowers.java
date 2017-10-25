@@ -9,6 +9,8 @@ public class TableOfPowers {
 		int userSquare = 0;
 		int userCube = 0;
 		char userChoice = 'y';
+		
+		//Test Change
 
 		System.out.println("Learn your squares and cubes!");
 		System.out.println();
