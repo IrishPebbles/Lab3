@@ -26,10 +26,9 @@ public class TableOfPowers {
 
 			for (int i = 1; i <= userNum; i++) {
 
-				userSquare = (int) Math.pow(i, 2);
-				userCube = (int) Math.pow(i, 3);
-				
-				System.out.printf("%-10s%-10s %-10s", i, userSquare, userCube);
+				userSquare = i * i;
+				userCube = i * i * i;
+				System.out.printf("%-10s %-10s %-10s", i, userSquare, userCube);
 				System.out.println();
 
 			}
